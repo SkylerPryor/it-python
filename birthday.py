@@ -1,3 +1,3 @@
 from banner import banner
 
-banner(" Birthday", " Skyler")
+banner("  Birthday", "Skyler")

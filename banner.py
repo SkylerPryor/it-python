@@ -4,8 +4,8 @@ def banner(subject, author):
     by_line = f"By {author}"
     banner_length = subject_length + 4
     print("=" * banner_length)
-    print(f"{subject}")
-    print(f"By {author}")
+    print(f" {subject}")
+    print(f" By {author}")
     print("=" * banner_length)
     print("")
 
