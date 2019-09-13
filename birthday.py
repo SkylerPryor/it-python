@@ -34,7 +34,7 @@ def compute_days_between_dates(original_date, target_date):
     return dt.days
 
 def print_birthday_info(number_of_days):
-    print(number_of_days)
+    if number_of_days
 
 
 main()
