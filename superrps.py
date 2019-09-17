@@ -1,4 +1,9 @@
 
+
+
+
+
+
 import random
 from banner import banner
 banner("Rock, Paper, Scissors"," Skyler")
@@ -23,7 +28,7 @@ player_score = 0
 while player_score < 2 and cpu_score < 2:
     scoreboard(player_score, cpu_score)
     players_choice = get_players_choice()
-    cpu_choice = random.randint(1,4)
+    cpu_choice = random.randint(1,3)
 
     if players_choice == 1:
         if cpu_choice == 1:
@@ -55,20 +60,3 @@ while player_score < 2 and cpu_score < 2:
             print("")
         if player_score > cpu_score:
             print("You Have Beaten The Computer In An Honorable Battle. Congrats!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
