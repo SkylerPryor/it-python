@@ -9,17 +9,23 @@ from banner import banner
 banner("ZIP CODE SORTER","Skyler")
 
 
+print("Welcome to Newaygo County zip code sorter.")
 print("")
-print("Welcome To The Computer's Zip Code Sorter For Newaygo County.")
-print("")
-name = input("Hello What is your name?")
-print("")
-print(f"Hello {name} Welcome To Zip Code Sorter please enter a 5 digit zipcode below.")
-print("")
-choice = int(input("Enter Zip Code Here:"))
 
-if choice == 49412 or 49413:
-    print("This Is Fremont's Zip Code.")
+
+while True:
+    zip_code = int(input("Please enter a zip code:"))
+    if zip_code == 49309:
+        print("The zip code {zip_code} is for Bitely.")
+    elif zip_code == 49312:
+        print(f"The zip code {zip_code} is for Brohman.")
+    elif zip_code == 49337:
+        print(f"The zip code {zip_code} is for Croton and Newaygo.")
+#
+#
+#
+    else:
+       print("The Zip code {zip_code} is not in Newaygo County.")
 
 
 
